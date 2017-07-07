@@ -1,0 +1,6 @@
+framework module MCYLibrary {
+  umbrella header "MCYLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
