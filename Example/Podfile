@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MCYLibrary_Example' do
+  pod 'MCYLibrary', :path => '../'
+
+  target 'MCYLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
